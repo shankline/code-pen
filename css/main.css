@@ -1,9 +1,44 @@
-body {
-	background-color:black;
-	color:white;
-	font-family:"Times New Roman";
+body{
+  
+  background-color:#1b1a2d;
 }
-p{
-    display:inline-block;
-    /position:absolute;/
+.main{
+  height:24vmin;
+  width:80vmin;
+  border-radius:12vmin;
+  background-color:#efeaea;
+  transform:scale(0.75);
+}
+.side{
+  position:absolute;
+  top:-16vmin;
+  left:12vmin;
+  height:40vmin;
+  width:40vmin;
+  border-radius:50%;
+  background-color:#efeaea;
+}
+.side2{
+  position:absolute;
+  top:-20vmin;
+  left:40vmin;
+  height:28vmin;
+  width:28vmin;
+  border-radius:50%;
+  background-color:#efeaea;
+}
+#cloud1{
+  position:absolute;
+  top:calc(40vh - 25vmin);
+  left:calc(50vw - 40vmin);
+}
+path{
+  stroke:#ddeb44;
+}
+svg{
+  position:absolute;
+  top:calc(40vh - 5vmin);
+  left:calc(50vw - 30vmin);
+  height:70vmin;
+  z-index:-1;
 }
